@@ -1,0 +1,38 @@
+{
+  "name": "@sudoql/type",
+  "version": "1.0.0",
+  "description": "Type Declaration for SudoQL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudoql/SudoQL-Type-TypeScript.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudoql/SudoQL-Type-TypeScript/issues"
+  },
+  "homepage": "https://github.com/sudoql/SudoQL-Type-TypeScript#readme",
+  "devDependencies": {
+    "@sudoo/build-utils": "^1.0.0",
+    "@sudoo/license": "^1.1.0",
+    "@sudoo/triforce": "^2.15.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
